@@ -1,7 +1,7 @@
 import socket
 from typing import BinaryIO
 
-def file_server(iface: str, port: int, use_udp: bool, fp: BinaryIO) -> None:
+def file_server1(iface: str, port: int, use_udp: bool, fp: BinaryIO) -> None:
     print("Hello, I am a server")
 
     if use_udp:
